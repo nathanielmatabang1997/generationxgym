@@ -59,7 +59,7 @@ const Header = () => {
         <div className="md:flex justify-center items-center gap-6 font-semibold hidden">
           <NavLink to='/' className={Hover}>Home</NavLink>
           <NavLink to='/instructor' className={Hover}>Intructor</NavLink>
-          <NavLink to='/classes' className={Hover}>Classes</NavLink>
+          <NavLink to='/Upper' className={Hover}>Classes</NavLink>
           <NavLink to='/about' className={Hover}>About</NavLink>
           <NavLink to='/' className="bg-bgButton p-2 text-fontColor rounded-md">Sign Up</NavLink>
         </div>
@@ -89,7 +89,7 @@ const Header = () => {
                 <div className="flex flex-col relative w-full p-2 ">
                   <NavLink to='/' className={Hover}>Home</NavLink>
                   <NavLink to='/instructor' className={Hover}>Intructor</NavLink>
-                  <NavLink to='/classes'className={Hover}>Classes</NavLink>
+                  <NavLink to='/Upper'className={Hover}>Classes</NavLink>
                   <NavLink to='/about'className={Hover}>About</NavLink>
                   <NavLink to='/' className="bg-bgButton text-fontColor rounded-md">Sign Up</NavLink>                 
                 </div>

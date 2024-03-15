@@ -9,7 +9,7 @@ export const InstructorList = [
     image: '/images/img1.jpg',
     price: '₱1500',
     teacher: 'Lando Sanchez',
-    link: '/upper-body',
+    category: '/upper-body',
     subcategories: ['Upper Body']
   },
   {
@@ -18,7 +18,7 @@ export const InstructorList = [
     image: '/images/img2.jpg',
     price: '₱1500',
     teacher: 'Lando Sanchez',
-    link: '/lower-body',
+    category: '/lower-body',
     subcategories: ['Lower Body']
   },
   {
@@ -27,7 +27,7 @@ export const InstructorList = [
     image: '/images/img3.jpg',
     price: '₱1500',
     teacher: 'Lando Sanchez',
-    link: '/core',
+    category: '/core',
     subcategories: ['Core']
   },
   {
@@ -36,7 +36,7 @@ export const InstructorList = [
     image: '/images/img2.jpg',
     price: '₱1500',
     teacher: 'Lando Sanchez',
-    link: '/functional-movements',
+    category: '/functional-movements',
     subcategories: ['Functional Movements']
   },
   {
@@ -45,7 +45,7 @@ export const InstructorList = [
     image: '/images/img5.jpg',
     price: '₱1500',
     teacher: 'Lando Sanchez',
-    link: '/isolation-exercises',
+    category: '/isolation-exercises',
     subcategories: ['Isolationa Exercises']
   },
   {
@@ -54,7 +54,7 @@ export const InstructorList = [
     image: '/images/img2.jpg',
     price: '₱1500',
     teacher: 'Lando Sanchez',
-    link: '/compound-exercises',
+    category: '/compound-exercises',
     subcategories: ['Compound Exercises']
   },
 ];
@@ -70,7 +70,7 @@ const IntructorList = () => {
         {
           InstructorList.map(category => (
             <div key={category.id} className="shadow-lg relative p-2 rounded-lg bg-fontColor cursor-pointer hover:scale-90 transition-all ease-in-out hover:shadow-[#bbf7d0]">
-              <Link to={category.link}>
+              <Link to={'/instructor/'+category.teacher}>
                 <img src={category.image} alt={category.name} className="h-[140px] w-full md:h-[200px] object-fit rounded-lg"/>
 
                 <div className="flex justify-between mx-1 items-start pt-1">

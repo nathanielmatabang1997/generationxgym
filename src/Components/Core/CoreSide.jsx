@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import { categories } from "./CategoryList"
+import { categories } from "../CategoryList"
 import { IconContext } from "react-icons";
 
-const CategorySideBar = () => {
+const CoreSide = () => {
   return(
     <div className="grid grid-cols-3 mb-3 md:grid-cols-1 gap-2 md:mb-0">
       <h2 className="font-bold mb-3 text-lg text-bgButton hidden md:block">Categories</h2>
@@ -20,4 +20,4 @@ const CategorySideBar = () => {
     </div>
   )
 }
-export default CategorySideBar
+export default CoreSide

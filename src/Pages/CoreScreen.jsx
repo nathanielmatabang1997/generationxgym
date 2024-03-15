@@ -1,15 +1,16 @@
-import SideBarList from "../Components/SideBarList"
-import Layout from '../Layout/Layout'
 
-const ClassesScreen = () => {
+import Layout from '../Layout/Layout'
+import CoreList from '../Components/Core/CoreList'
+
+const CoreScreen = () => {
   return(
     <Layout>
       <div className="container mx-auto  adjustPadding lg:mx-auto">
 
-        <SideBarList/>
+        <CoreList/>
 
       </div>
     </Layout>
   )
 }
-export default ClassesScreen
+export default CoreScreen

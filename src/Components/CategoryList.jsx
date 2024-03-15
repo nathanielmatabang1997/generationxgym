@@ -5,59 +5,40 @@ import { Link } from "react-router-dom";
 
 export const categories = [
   {
+    _id: '1',
     name: 'Upper',
     icon: <FaDumbbell/>,
-    link: '/upper'
+   
   },
   {
+    _id: '2',
     name: 'Lower',
     icon: <FaRunning/>,
-    link: '/lower'
+    
   },
-  {
+  { 
+    _id: '3',
     name: 'Core',
     icon: <FaBicycle/>,
-    link: 'core'
+    
   },
   {
+    _id: '4',
     name: 'Function',
     icon: <FaSwimmer/>,
-    link: 'function'
+    
   },
   {
+    _id: '5',
     name: 'Isolation',
     icon: <FaHeartbeat/>,
-    link: 'isolation'
+    
   },
   {
+    _id: '6',
     name: 'Comp',
     icon: <FaDumbbell/>,
-    link: '/compound'
-  },
-  {
-    name: 'Compound',
-    icon: <FaRunning/>,
-    link: '/compund'
-  },
-  {
-    name: 'Lower ',
-    icon: <FaBicycle/>,
-    link: '/lower'
-  },
-  {
-    name: 'Upper',
-    icon: <FaSwimmer/>,
-    link: 'upper'
-  },
-  {
-    name: 'Core',
-    icon: <FaHeartbeat/>,
-    link: 'core'
-  },
-  {
-    name: 'Isolation',
-    icon: <FaHeartbeat/>,
-    link: 'isolation'
+    
   }
 ];
 
@@ -72,7 +53,7 @@ const CategoryList = () => {
       <div className="grid grid-cols-3 pl-1 mt-4  md:grid-cols-4 lg:grid-cols-6 list-none">
       
           {categories.map((category, index) => index<6 && (
-            <Link to={'/classes/'+category.name} key={index} className="flex flex-col text-center items-center p-5 cardList m-2 rounded-lg cursor-pointer hover:scale-110 transition-all ease-in-out ">
+            <Link to={'/'+category.name} key={index} className="flex flex-col text-center items-center p-5 cardList m-2 rounded-lg cursor-pointer hover:scale-110 transition-all ease-in-out ">
               <IconContext.Provider value={{size: '1.5em',color: '#34d399'}}>
                 {category.icon}
               </IconContext.Provider>

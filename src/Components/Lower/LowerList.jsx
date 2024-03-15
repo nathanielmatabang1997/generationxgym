@@ -1,6 +1,7 @@
 
-import CategoryMenu from "./CategoryMenu"
+
 import { Link } from "react-router-dom"
+import LowerMenu from "./LowerMenu";
 
 
 export const CategoryData = [
@@ -11,7 +12,7 @@ export const CategoryData = [
     price: '₱1500',
     teacher: 'johm dou',
     category: '/upper-body',
-    subcategories: ['Upper Body']
+    subcategories: ['Lower Body']
   },
   {
     id: 2,
@@ -20,7 +21,7 @@ export const CategoryData = [
     price: '₱1500',
     teacher: 'andoy',
     category: '/lower-body',
-    subcategories: ['Upper Body']
+    subcategories: ['Lower Body']
   },
   {
     id: 3,
@@ -29,7 +30,7 @@ export const CategoryData = [
     price: '₱1500',
     teacher: 'Lando Sanchez',
     category: '/core',
-    subcategories: ['Upper Body']
+    subcategories: ['Lower Body']
   },
   {
     id: 4,
@@ -38,7 +39,7 @@ export const CategoryData = [
     price: '₱1500',
     teacher: 'Lando Sanchez',
     category: '/functional-movements',
-    subcategories: ['Upper Body']
+    subcategories: ['Lower Body']
   },
   {
     id: 5,
@@ -47,7 +48,7 @@ export const CategoryData = [
     price: '₱1500',
     teacher: 'Lando Sanchez',
     category: '/isolation-exercises',
-    subcategories: ['Upper Body']
+    subcategories: ['Lower Body']
   },
   {
     id: 6,
@@ -56,17 +57,17 @@ export const CategoryData = [
     price: '₱1500',
     teacher: 'Lando Sanchez',
     category: '/compound-exercises',
-    subcategories: ['Upper Body']
+    subcategories: ['Lower Body']
   },
 ];
 
 
 
-const SideBarList = () => {
+const LowerList = () => {
   return(
-    <CategoryMenu>
+    <LowerMenu>
       <div className="">       
-        <h2 className="font-bold mb-3 text-lg text-bgButton flex justify-center items-center">Upper Body</h2>
+        <h2 className="font-bold mb-3 text-lg text-bgButton flex justify-center items-center">Lower Body</h2>
       
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-4">
         {
@@ -102,7 +103,7 @@ const SideBarList = () => {
     </div>
         
       
-    </CategoryMenu>
+    </LowerMenu>
   )
 }
-export default SideBarList
+export default LowerList
