@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 export const InstructorList = [
   {
     id: 1,
-    name: 'Bench Press',
+    name: 'BenchPress',
     image: '/images/img1.jpg',
     price: '₱1500',
     teacher: 'Lando Sanchez',
-    category: '/upper-body',
+    category: '/Upper',
     subcategories: ['Upper Body']
   },
   {
@@ -18,7 +18,7 @@ export const InstructorList = [
     image: '/images/img2.jpg',
     price: '₱1500',
     teacher: 'Lando Sanchez',
-    category: '/lower-body',
+    category: '/Lower',
     subcategories: ['Lower Body']
   },
   {
@@ -27,25 +27,25 @@ export const InstructorList = [
     image: '/images/img3.jpg',
     price: '₱1500',
     teacher: 'Lando Sanchez',
-    category: '/core',
+    category: '/Core',
     subcategories: ['Core']
   },
   {
     id: 4,
-    name: 'Kettlebell Swings',
+    name: 'KettlebellSwings',
     image: '/images/img2.jpg',
     price: '₱1500',
     teacher: 'Lando Sanchez',
-    category: '/functional-movements',
+    category: '/Function',
     subcategories: ['Functional Movements']
   },
   {
     id: 5,
-    name: 'Dumbbel Flyes',
+    name: 'DumbbellFlyes',
     image: '/images/img5.jpg',
     price: '₱1500',
     teacher: 'Lando Sanchez',
-    category: '/isolation-exercises',
+    category: '/Isolation',
     subcategories: ['Isolationa Exercises']
   },
   {
@@ -54,23 +54,23 @@ export const InstructorList = [
     image: '/images/img2.jpg',
     price: '₱1500',
     teacher: 'Lando Sanchez',
-    category: '/compound-exercises',
+    category: '/Comp',
     subcategories: ['Compound Exercises']
   },
 ];
 
-const IntructorList = () => {
+const ExercisesList = () => {
   return(
     <div>
       <div className="categoryTitle mt-10">
         <BsBookmarkStarFill className="text-bgButton sm:w-6 sm:h-6 w-4 h-4"/>
-        <h2 className=" font-bold text-lg sm:text-xl">Popular Instructor</h2>
+        <h2 className=" font-bold text-lg sm:text-xl">Popular Exercises</h2>
       </div>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-4">
         {
           InstructorList.map(category => (
             <div key={category.id} className="shadow-lg relative p-2 rounded-lg bg-fontColor cursor-pointer hover:scale-90 transition-all ease-in-out hover:shadow-[#bbf7d0]">
-              <Link to={'/instructor/'+category.teacher}>
+              <Link to={category.category + '/' +category.name}>
                 <img src={category.image} alt={category.name} className="h-[140px] w-full md:h-[200px] object-fit rounded-lg"/>
 
                 <div className="flex justify-between mx-1 items-start pt-1">
@@ -100,4 +100,4 @@ const IntructorList = () => {
     </div>
   )
 }
-export default IntructorList
+export default ExercisesList

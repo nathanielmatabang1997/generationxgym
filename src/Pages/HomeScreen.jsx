@@ -1,6 +1,6 @@
 import Banner from "../Components/Banner"
 import CategoryList from "../Components/CategoryList"
-import IntructorList from "../Components/IntructorList"
+import ExercisesList from "../Components/ExercisesList"
 import Layout from "../Layout/Layout"
 
 const HomeScreen = () => {
@@ -10,7 +10,7 @@ const HomeScreen = () => {
         
         <Banner/>
         <CategoryList/>
-        <IntructorList/>
+        <ExercisesList/>
       </div>
     </Layout>
   )
