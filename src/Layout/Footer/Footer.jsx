@@ -16,7 +16,7 @@ function Footer() {
       },
       {
         name: 'Classes',
-        link:'/classes'
+        link:'/Upper'
       },
       {
         name: 'About',
@@ -29,19 +29,19 @@ function Footer() {
     links: [
       {
         name: 'Upper',
-        link:'#'
+        link:'/Upper'
       },
       {
         name: 'Core',
-        link:'#'
+        link:'/Core'
       },
       {
         name: 'Lower',
-        link:'#'
+        link:'/Lower'
       },
       {
         name: 'Functional ',
-        link:'#'
+        link:'/Function'
       },
     ]
   },
@@ -85,10 +85,10 @@ function Footer() {
           ))
         }
         <div className="">
-          <div className='flex justify-start items-center'>
+          <Link to='/' className='flex justify-start items-center'>
             <img src='/logo.svg' alt='logo'/>
             <h1>Fitness Gym</h1>
-          </div>
+          </Link>
           <ul>
             
           </ul>
