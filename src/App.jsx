@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom'
 import './App.css'
 import HomeScreen from './Pages/HomeScreen'
+import SignUp from './Pages/SignUp'
 import UpperList from './Pages/UpperList'
 import InstructorScreen from './Pages/InstructorScreen'
 import AboutScreen from './Pages/AboutScreen'
@@ -42,6 +43,7 @@ function App() {
 
       <Route path='/instructor' element={<InstructorScreen/>}/>
       <Route path='/about' element={<AboutScreen/>}/>
+      <Route path='/sign-up' element={<SignUp/>}/>
     </Routes>
   )
 }

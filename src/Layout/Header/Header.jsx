@@ -61,7 +61,7 @@ const Header = () => {
           <NavLink to='/instructor' className={Hover}>Intructor</NavLink>
           <NavLink to='/Upper' className={Hover}>Classes</NavLink>
           <NavLink to='/about' className={Hover}>About</NavLink>
-          <NavLink to='/' className="bg-bgButton p-2 text-fontColor rounded-md">Sign Up</NavLink>
+          <NavLink to='/sign-up' className="bg-bgButton p-2 text-fontColor rounded-md">Sign Up</NavLink>
         </div>
         <div className="sm:hidden">
           <HiOutlineMenuAlt3  onClick={Handler} className="w-10 h-9 bg-bgButton text-lg font-normal p-1 rounded-md cursor-pointer" />
@@ -91,7 +91,7 @@ const Header = () => {
                   <NavLink to='/instructor' className={Hover}>Intructor</NavLink>
                   <NavLink to='/Upper'className={Hover}>Classes</NavLink>
                   <NavLink to='/about'className={Hover}>About</NavLink>
-                  <NavLink to='/' className="bg-bgButton text-fontColor rounded-md">Sign Up</NavLink>                 
+                  <NavLink to='/sign-up' className="bg-bgButton text-fontColor rounded-md">Sign Up</NavLink>                 
                 </div>
               { profile &&
                 <div className="absolute bg-bgHeader top-11 left-0 profile shadow-sm rounded-md">

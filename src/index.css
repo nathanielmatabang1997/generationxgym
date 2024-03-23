@@ -45,4 +45,14 @@ body{
     width: 100%;
     height: 270px;
   }
+  .gridDetails{
+    margin-top: 40px;
+  }
+  .aboutHeight{
+    height: 10px
+  }
+  .paddingButton{
+    padding-right: 30px;
+    padding-left: 30px;
+  }
 }
