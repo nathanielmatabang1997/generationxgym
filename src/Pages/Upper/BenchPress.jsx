@@ -11,10 +11,10 @@ const BenchPress = () => {
   return(
     <Layout>
       <div className="container mx-auto adjustPadding pb-10">
-        <div className="grid grid-cols-1 gap-2 md:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div>
             <BenchImage/>
-            <div className="-mt-2 md:-mt-14">
+            <div className="-mt-2 md:-mt-2 lg:-mt-14">
               <div className="flex justify-between items-center mx-2 ">
                 <h1 className="font-bold">Bench Press</h1>
                 <p className="font-bold">₱500</p>
@@ -32,7 +32,7 @@ const BenchPress = () => {
                 
                 <div>
                   <h1 className="font-medium">
-                    Lando Sanchez
+                    Felipe Santiago
                   </h1>
                 </div>                             
               </div>
