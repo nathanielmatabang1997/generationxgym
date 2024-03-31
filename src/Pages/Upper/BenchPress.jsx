@@ -1,4 +1,4 @@
-import BenchImage from "../../Components/BenchImage"
+import BenchImage from "./BenchImage"
 import Layout from "../../Layout/Layout"
 import { FaUserTie } from "react-icons/fa";
 import { FaClock } from "react-icons/fa6";

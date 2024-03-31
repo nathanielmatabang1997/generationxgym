@@ -10,52 +10,52 @@ export const CategoryData = [
     image: '/images/img1.jpg',
     price: '₱1500',
     teacher: 'johm dou',
-    category: '/upper-body',
+    category: '/Upper/BenchPress',
     subcategories: ['Upper Body']
   },
   {
     id: 2,
-    name: 'Squats',
+    name: 'Push-ups',
     image: '/images/img2.jpg',
     price: '₱1500',
     teacher: 'andoy',
-    category: '/lower-body',
+    category: '/Upper/PushUps',
     subcategories: ['Upper Body']
   },
   {
     id: 3,
-    name: 'Planks',
+    name: 'Pull-ups',
     image: '/images/img3.jpg',
     price: '₱1500',
     teacher: 'Lando Sanchez',
-    category: '/core',
+    category: '/Upper/PullUps',
     subcategories: ['Upper Body']
   },
   {
     id: 4,
-    name: 'Kettlebell Swings',
+    name: 'Shoulder Press',
     image: '/images/img2.jpg',
     price: '₱1500',
     teacher: 'Lando Sanchez',
-    category: '/functional-movements',
+    category: '/Upper/ShoulderPress',
     subcategories: ['Upper Body']
   },
   {
     id: 5,
-    name: 'Dumbbel Flyes',
+    name: 'Bicep Curls',
     image: '/images/img5.jpg',
     price: '₱1500',
     teacher: 'Lando Sanchez',
-    category: '/isolation-exercises',
+    category: '/Upper/BicepCurls',
     subcategories: ['Upper Body']
   },
   {
     id: 6,
-    name: 'Snatch',
+    name: 'Tricep Dips',
     image: '/images/img2.jpg',
     price: '₱1500',
     teacher: 'Lando Sanchez',
-    category: '/compound-exercises',
+    category: '/Upper/TricepDips',
     subcategories: ['Upper Body']
   },
 ];

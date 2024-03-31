@@ -7,11 +7,11 @@ import LowerMenu from "./LowerMenu";
 export const CategoryData = [
   {
     id: 1,
-    name: 'Beach Press',
+    name: 'Lunges',
     image: '/images/img1.jpg',
     price: '₱1500',
     teacher: 'johm dou',
-    category: '/upper-body',
+    category: '/Lower/Lunges',
     subcategories: ['Lower Body']
   },
   {
@@ -20,43 +20,43 @@ export const CategoryData = [
     image: '/images/img2.jpg',
     price: '₱1500',
     teacher: 'andoy',
-    category: '/lower-body',
+    category: '/Squats',
     subcategories: ['Lower Body']
   },
   {
     id: 3,
-    name: 'Planks',
+    name: 'Deadlifts',
     image: '/images/img3.jpg',
     price: '₱1500',
     teacher: 'Lando Sanchez',
-    category: '/core',
+    category: '/Lower/Deadlifts',
     subcategories: ['Lower Body']
   },
   {
     id: 4,
-    name: 'Kettlebell Swings',
+    name: 'Leg Press',
     image: '/images/img2.jpg',
     price: '₱1500',
     teacher: 'Lando Sanchez',
-    category: '/functional-movements',
+    category: '/Lower/LegPress',
     subcategories: ['Lower Body']
   },
   {
     id: 5,
-    name: 'Dumbbel Flyes',
+    name: 'Calf Raises',
     image: '/images/img5.jpg',
     price: '₱1500',
     teacher: 'Lando Sanchez',
-    category: '/isolation-exercises',
+    category: '/Lower/CalfRaises',
     subcategories: ['Lower Body']
   },
   {
     id: 6,
-    name: 'Snatch',
+    name: 'Hamstring Curls',
     image: '/images/img2.jpg',
     price: '₱1500',
     teacher: 'Lando Sanchez',
-    category: '/compound-exercises',
+    category: '/Lower/HamstringCurls',
     subcategories: ['Lower Body']
   },
 ];

@@ -78,7 +78,7 @@ const Header = () => {
                     <div onClick={profileHandler} className='bg-[#a7f3d0] p-1 text-sm w-8 h-8 rounded-md flex justify-center items-center cursor-pointer'>
                       <h1 className="cursor-pointer">LS</h1>
                     </div>
-                    <div onClick={Handler} className='bg-[#a7f3d0] p-1 w-8 h-8 rounded-md flex justify-center items-center cursor-pointer'>
+                    <div onClick={Handler} className='bg-[#a7f3d0]   p-1 w-8 h-8 rounded-md flex justify-center items-center cursor-pointer'>
                       <FaTimes/>
                     </div>
                     
@@ -86,15 +86,15 @@ const Header = () => {
 
               
                 </div>
-                <div className="flex flex-col relative w-full p-2 ">
-                  <NavLink to='/' className={Hover}>Home</NavLink>
+                <div className="flex flex-col relative w-full pl-3 ">
+                  <NavLink to='/' className={`${Hover}`}>Home</NavLink>
                   <NavLink to='/instructor' className={Hover}>Intructor</NavLink>
                   <NavLink to='/Upper'className={Hover}>Classes</NavLink>
                   <NavLink to='/about'className={Hover}>About</NavLink>
-                  <NavLink to='/sign-up' className="bg-bgButton text-fontColor rounded-md">Sign Up</NavLink>                 
+                  <NavLink to='/sign-up' className=" text-fontColor rounded-md">Sign Up</NavLink>                 
                 </div>
               { profile &&
-                <div className="absolute bg-bgHeader top-11 left-0 profile shadow-sm rounded-md">
+                <div className="absolute bg-bgHeader dark:text-bgFooter top-11 left-0 profile shadow-sm rounded-md">
                   <div>Dashboard</div>
                 </div>
               } 
