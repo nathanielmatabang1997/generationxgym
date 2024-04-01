@@ -94,7 +94,7 @@ const Header = () => {
                   <NavLink to='/instructor' className={Hover}>Intructor</NavLink>
                   <NavLink to='/Upper'className={Hover}>Classes</NavLink>
                   <NavLink to='/about'className={Hover}>About</NavLink>
-                  <NavLink to='/sign-up' className=" text-fontColor rounded-md">Register Now</NavLink>                 
+                  <NavLink to='/Register' className=" text-fontColor rounded-md">Register Now</NavLink>                 
                 </div>
               { profile &&
                 <div className="absolute bg-bgHeader dark:text-bgFooter top-11 left-0 profile shadow-sm rounded-md">
