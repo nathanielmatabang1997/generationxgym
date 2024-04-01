@@ -1,7 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
 import './App.css'
 import HomeScreen from './Pages/HomeScreen'
-import SignUp from './Pages/SignUp'
 import UpperList from './Pages/UpperList'
 import InstructorScreen from './Pages/InstructorScreen'
 import AboutScreen from './Pages/AboutScreen'
@@ -17,6 +16,8 @@ import Planks from './Pages/Core/Planks'
 import Snatch from './Pages/Compound/Snatch'
 import KettebellSwings from './Pages/Function/KettlebellSwings'
 import DumbbellFlyes from './Pages/Isolation/DumbbellFlyes'
+import Register from './Pages/Register'
+import Login from './Pages/Login'
 
 function App() {
   Aos.init();
@@ -43,7 +44,8 @@ function App() {
 
       <Route path='/instructor' element={<InstructorScreen/>}/>
       <Route path='/about' element={<AboutScreen/>}/>
-      <Route path='/sign-up' element={<SignUp/>}/>
+      <Route path='/Register' element={<Register/>}/>
+      <Route path="/Login" element={<Login/>}/>
     </Routes>
   )
 }

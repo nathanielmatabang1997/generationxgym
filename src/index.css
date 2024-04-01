@@ -58,4 +58,12 @@ body{
   .marginTops{
     margin-top: 20px;
   }
+  .imagebg{
+    background: url(/public/images/imagebg.jpg) no-repeat center center/cover;
+  
+  }
+  .opacity{
+    background-color: rgba(0,0,0,0.5);
+    box-shadow: inset -5px -5px rgba(0,0,0,0.5);
+  }
 }

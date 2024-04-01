@@ -14,7 +14,7 @@ const DumbbellFlyes = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div>
             <DumbbellFlyesImage/>
-            <div className="-mt-2 md:-mt-2 lg:-mt-14">
+            <div className="-mt-2 md:-mt-2 lg:-mt-14 2xl:-mt-12">
               <div className="flex justify-between items-center mx-2 ">
                 <h1 className="font-bold">DumbbellFlyes</h1>
                 <p className="font-bold">₱1000</p>

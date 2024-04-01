@@ -48,7 +48,7 @@ const Squats = () => {
                     2hr 32 Minutes
                   </h2>
                 </div>                             
-              </div>
+              </div>git
 
               <div className="flex justify-between items-center mt-2 ">
                 <div className="flex justify-center items-center gap-2">
