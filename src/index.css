@@ -55,4 +55,7 @@ body{
     padding-right: 30px;
     padding-left: 30px;
   }
+  .marginTops{
+    margin-top: 20px;
+  }
 }

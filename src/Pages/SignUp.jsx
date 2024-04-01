@@ -4,7 +4,7 @@ const SignUp = () => {
     
   <div className="container mx-auto adjustPadding">
         
-      Sig
+      Sigin up
      
             
   </div>
