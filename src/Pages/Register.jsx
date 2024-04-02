@@ -3,7 +3,7 @@ import { LiaFacebook } from "react-icons/lia";
 import {Link} from 'react-router-dom'
 const Register = () => {
   return(
-    <div className=' imagebg 2xl:h-screen sm:h-[120vh] xs:h-[130vh]'>
+    <div className=' imagebg 2xl:h-screen sm:h-[120vh] xs:h-[135vh]'>
       <div className="container mx-auto adjustPadding">
           
           <div className='grid grid-cols-1 md:grid-cols-2 justify-center items-center mt-0 2xl:mt-32 2xl:p-10 p-0  2xl:w-[70%] 2xl:ml-60 ml-0 w-full relative rounded-sm'>
