@@ -59,7 +59,7 @@ const Header = () => {
           </Link>
           
         </div>
-        <div className="md:flex justify-center items-center gap-6 font-semibold hidden">
+        <div className="md:flex justify-center items-center gap-6 font-semibold hidden md:text-[10px]">
           <NavLink to='/' className={Hover}>Home</NavLink>
           <NavLink to='/instructor' className={Hover}>Intructor</NavLink>
           <NavLink to='/Upper' className={Hover}>Classes</NavLink>
