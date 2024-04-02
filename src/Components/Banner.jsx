@@ -6,7 +6,7 @@ const Banner = () => {
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
           <div className="relative h-64 overflow-hidden rounded-lg -z-40 sm:h-80 lg:order-last lg:h-full">
             <img
-              alt=""
+              alt="bannerlogo"
               src="images/banner.jpg"
               className="absolute inset-0 h-full w-full object-cover"
             />

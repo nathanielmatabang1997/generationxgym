@@ -18,6 +18,7 @@ import KettebellSwings from './Pages/Function/KettlebellSwings'
 import DumbbellFlyes from './Pages/Isolation/DumbbellFlyes'
 import Register from './Pages/Register'
 import Login from './Pages/Login'
+import Contact from './Pages/Contact'
 
 function App() {
   Aos.init();
@@ -44,6 +45,7 @@ function App() {
 
       <Route path='/instructor' element={<InstructorScreen/>}/>
       <Route path='/about' element={<AboutScreen/>}/>
+      <Route path='/contact' element={<Contact/>}/>
       <Route path='/Register' element={<Register/>}/>
       <Route path="/Login" element={<Login/>}/>
     </Routes>

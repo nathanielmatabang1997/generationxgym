@@ -7,8 +7,6 @@ export const InstructorList = [
     id: 1,
     name: 'BenchPress',
     image: '/images/img1.jpg',
-    price: '₱1500',
-    teacher: 'Lando Sanchez',
     category: '/Upper',
     subcategories: ['Upper Body']
   },
@@ -16,8 +14,6 @@ export const InstructorList = [
     id: 2,
     name: 'Squats',
     image: '/images/img2.jpg',
-    price: '₱1500',
-    teacher: 'Lando Sanchez',
     category: '/Lower',
     subcategories: ['Lower Body']
   },
@@ -25,8 +21,6 @@ export const InstructorList = [
     id: 3,
     name: 'Planks',
     image: '/images/img3.jpg',
-    price: '₱1500',
-    teacher: 'Lando Sanchez',
     category: '/Core',
     subcategories: ['Core']
   },
@@ -34,8 +28,6 @@ export const InstructorList = [
     id: 4,
     name: 'KettlebellSwings',
     image: '/images/img2.jpg',
-    price: '₱1500',
-    teacher: 'Lando Sanchez',
     category: '/Function',
     subcategories: ['Functional Movements']
   },
@@ -43,8 +35,6 @@ export const InstructorList = [
     id: 5,
     name: 'DumbbellFlyes',
     image: '/images/img5.jpg',
-    price: '₱1500',
-    teacher: 'Lando Sanchez',
     category: '/Isolation',
     subcategories: ['Isolationa Exercises']
   },
@@ -52,8 +42,6 @@ export const InstructorList = [
     id: 6,
     name: 'Snatch',
     image: '/images/img2.jpg',
-    price: '₱1500',
-    teacher: 'Lando Sanchez',
     category: '/Comp',
     subcategories: ['Compound Exercises']
   },

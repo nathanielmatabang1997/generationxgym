@@ -14,8 +14,8 @@ const Header = () => {
   const profileHandler = () => {
     setProfile(!profile)
   }
-  const hover = 'hover:text-bgButton transitions dark:text-fontColor';
-  const Hover = ({isActive}) => (isActive ? 'text-bgButton' : hover);
+  const hover = 'hover:text-bgFooter transitions  dark:text-fontColor rounded-sm';
+  const Hover = ({isActive}) => (isActive ? 'text-bgButton ' : hover);
 
   const subhover = 'hover:text-bgButton transitions dark:text-fontColor';
   const MainHover = ({isActive}) => (isActive ? 'text-bgButton' : subhover); 
@@ -64,7 +64,8 @@ const Header = () => {
           <NavLink to='/instructor' className={Hover}>Intructor</NavLink>
           <NavLink to='/Upper' className={Hover}>Classes</NavLink>
           <NavLink to='/about' className={Hover}>About</NavLink>
-          <NavLink to='/Register' className="bg-bgButton p-2 text-fontColor rounded-md">Register Now</NavLink>
+          <NavLink to='/contact' className={Hover}>Contact</NavLink>
+          <NavLink to='/Register' className="bg-bgButton p-2 rounded-md">Register Now</NavLink>
         </div>
         <div className="sm:hidden">
           <HiOutlineMenuAlt3  onClick={Handler} className="w-10 h-9 bg-bgButton text-lg font-normal p-1 rounded-md cursor-pointer" />
@@ -89,12 +90,13 @@ const Header = () => {
 
               
                 </div>
-                <div className="flex flex-col relative w-full pl-3 ">
-                  <NavLink to='/' className={`${Hover}`}>Home</NavLink>
+                <div className="flex flex-col relative w-full p-2">
+                  <NavLink to='/' className={Hover}>Home</NavLink>
                   <NavLink to='/instructor' className={Hover}>Intructor</NavLink>
                   <NavLink to='/Upper'className={Hover}>Classes</NavLink>
                   <NavLink to='/about'className={Hover}>About</NavLink>
-                  <NavLink to='/Register' className=" text-fontColor rounded-md">Register Now</NavLink>                 
+                  <NavLink to='/contact' className={Hover}>Contact</NavLink>
+                  <NavLink to='/Register' className="text-bgFooter bg-bgButton p-1 dark:text-fontColor rounded-sm">Register Now</NavLink>                 
                 </div>
               { profile &&
                 <div className="absolute bg-bgHeader dark:text-bgFooter top-11 left-0 profile shadow-sm rounded-md">
