@@ -55,7 +55,7 @@ const Register = () => {
                   <div className="col-span-2 md:col-span-1">
                     <label className="py-1 text-fontColor">FirstName:</label>
                     <div className="p-1 rounded-md bg-fontColor border-bgButton border 2xl:w-[90%] w-[95%] my-2">
-                      <input type="text" placeholder="Firstname" className="outline-none w-full p-1"/>
+                      <input type="text" placeholder="Firstname"  required className="outline-none w-full p-1"/>
 
                     </div>
                   </div>
@@ -63,7 +63,7 @@ const Register = () => {
                   <div className="col-span-2 md:col-span-1"> 
                     <label className="py-1 text-fontColor">LastName:</label>
                     <div className="p-1 rounded-md bg-fontColor border-bgButton border 2xl:w-[90%] w-[95%] my-2">
-                      <input type="text" placeholder="Lastname" className="outline-none w-full p-1"/>
+                      <input type="text" placeholder="Lastname" required className="outline-none w-full p-1"/>
 
                     </div>
                   </div>
@@ -71,7 +71,7 @@ const Register = () => {
                   <div className="col-span-2 md:col-span-1">
                     <label className="py-1 text-fontColor">Email:</label>
                     <div className="p-1 rounded-md bg-fontColor border-bgButton border 2xl:w-[90%] w-[95%] my-2">
-                      <input type="email" placeholder="@gmail.com" className="outline-none w-full p-1"/>
+                      <input type="email" placeholder="@gmail.com"  required className="outline-none w-full p-1"/>
 
                     </div>
                   </div>
@@ -79,7 +79,7 @@ const Register = () => {
                   <div className="col-span-2 md:col-span-1">
                     <label className="py-1 text-fontColor">Address:</label>
                     <div className="p-1 rounded-md bg-fontColor border-bgButton border 2xl:w-[90%] w-[95%] my-2">
-                      <input type="text" placeholder="Address" className="outline-none w-full p-1"/>
+                      <input type="text" placeholder="Address" required className="outline-none w-full p-1"/>
 
                     </div>
                   </div>
@@ -87,7 +87,7 @@ const Register = () => {
                   <div className="col-span-2 md:col-span-1">
                     <label className="py-1 text-fontColor">Password:</label>
                     <div className="p-1 rounded-md bg-fontColor border-bgButton border 2xl:w-[90%] w-[95%] my-2">
-                      <input type="password" placeholder="Password" className="outline-none w-full p-1"/>
+                      <input type="password" placeholder="Password" required className="outline-none w-full p-1"/>
 
                     </div>
                   </div>
@@ -95,12 +95,12 @@ const Register = () => {
                   <div className="col-span-2 md:col-span-1 mb-4">
                     <label className="py-1 text-fontColor">Comfirmed Password:</label>
                     <div className="p-1 rounded-md bg-fontColor border-bgButton border 2xl:w-[90%] w-[95%] my-2">
-                      <input type="password" placeholder="Comfirmed Password" className="outline-none w-full p-1"/>
+                      <input type="password" placeholder="Comfirmed Password" required className="outline-none w-full p-1"/>
 
                     </div>
                   </div>
                   
-                  <div className="col-span-2 md:col-span-1 mb-4">
+                  <div className="col-span-2 md:col-span-2 mb-4">
                     <input type="checkbox" className="rounded-sm"/>
                     <span className="p-1 text-fontColor text-[12px]">I agree <span className="text-bgButton ">Terms of Service</span> and Privacy Policy </span>
                   </div>

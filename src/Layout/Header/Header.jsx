@@ -59,13 +59,13 @@ const Header = () => {
           </Link>
           
         </div>
-        <div className="md:flex justify-center items-center gap-6 font-semibold hidden md:text-[10px]">
+        <div className="md:flex justify-center items-center gap-6 font-semibold hidden md:text-[10px] lg:text-[15px]">
           <NavLink to='/' className={Hover}>Home</NavLink>
           <NavLink to='/instructor' className={Hover}>Intructor</NavLink>
           <NavLink to='/Upper' className={Hover}>Classes</NavLink>
           <NavLink to='/about' className={Hover}>About</NavLink>
           <NavLink to='/contact' className={Hover}>Contact</NavLink>
-          <NavLink to='/Register' className="bg-bgButton p-2 rounded-md">Register Now</NavLink>
+          <NavLink to='/Login' className="bg-bgButton p-2 rounded-md">Register Now</NavLink>
         </div>
         <div className="sm:hidden">
           <HiOutlineMenuAlt3  onClick={Handler} className="w-10 h-9 bg-bgButton text-lg font-normal p-1 rounded-md cursor-pointer" />
@@ -96,7 +96,7 @@ const Header = () => {
                   <NavLink to='/Upper'className={Hover}>Classes</NavLink>
                   <NavLink to='/about'className={Hover}>About</NavLink>
                   <NavLink to='/contact' className={Hover}>Contact</NavLink>
-                  <NavLink to='/Register' className="text-bgFooter bg-bgButton p-1 dark:text-fontColor rounded-sm">Register Now</NavLink>                 
+                  <NavLink to='/Login' className="text-bgFooter bg-bgButton p-1 dark:text-fontColor rounded-sm">Register Now</NavLink>                 
                 </div>
               { profile &&
                 <div className="absolute bg-bgHeader dark:text-bgFooter top-11 left-0 profile shadow-sm rounded-md">

@@ -50,12 +50,12 @@ const Login = () => {
                 
               </div>
 
-              <form className="grid md:grid-cols-2 grid-cols-1 justify-start items-start 2xl:pl-8 2xl:pt-6 pl-4">
+              <form action="/"className="grid md:grid-cols-2 grid-cols-1 justify-start items-start 2xl:pl-8 2xl:pt-6 pl-4">
             
                   <div className="col-span-2 2xl:w-[105%]">
                     <label className="py-1 text-fontColor">Username/Email:</label>
                     <div className="p-1 rounded-md bg-fontColor border-bgButton border 2xl:w-[90%] w-[95%] my-2">
-                      <input type="email" placeholder="@gmail.com" className="outline-none w-full p-1"/>
+                      <input type="email" placeholder="@gmail.com" required className="outline-none w-full p-1"/>
 
                     </div>
                   </div>
@@ -66,7 +66,7 @@ const Login = () => {
                   <div className="col-span-2 2xl:w-[105%] mb-4">
                     <label className="py-1 text-fontColor">Password:</label>
                     <div className="p-1 rounded-md bg-fontColor border-bgButton border 2xl:w-[90%] w-[95%] my-2">
-                      <input type="password" placeholder="Password" className="outline-none w-full p-1"/>
+                      <input type="password" placeholder="Password" required className="outline-none w-full p-1"/>
 
                     </div>
                   </div>
